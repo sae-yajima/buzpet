@@ -1,0 +1,21 @@
+<%= form_with(model: pet, local: true) do |f| %>
+  <div class="field">
+    <%= f.label :title, "タイトル" %><br />
+    <%= f.text_field :title, id:"pet_title" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :catch_copy, "キャッチコピー" %><br />
+    <%= f.text_area :catch_copy, class: :form__text, id:"pet_catch_copy" %>
+  </div>
+
+
+  <div class="field">
+    <%= f.label :image, "ペットの画像" %><br />
+    <%= f.file_field :image, id:"pet_image" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "保存する", class: :form__btn  %>
+  </div>
+<% end %>
