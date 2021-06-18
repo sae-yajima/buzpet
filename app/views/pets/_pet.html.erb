@@ -5,6 +5,6 @@
     <p class="card__summary">
       <%= "#{pet.catch_copy}" %>
     </p>
-    <%= link_to "by #{pet.user.name}",user_path(pet.user.id),method: :get, class: :card__user %>
+    <%= link_to "投稿者 #{pet.user.name}",user_path(pet.user.id),method: :get, class: :card__user %>
   </div>
 </div>

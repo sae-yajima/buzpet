@@ -39,7 +39,7 @@
   /* ヘッダー */
   
   .header {
-    background-color: #19bd8c;
+    background-color: #94d1fa;
     margin-bottom: 48px;
     padding: 20px 0;
 
@@ -163,19 +163,21 @@
   /* 写真と文字の距離・写真の形 */
   .card__img {
     margin-bottom: 20px;
-    border-radius: 30px;
+    border-radius: 50% 20% / 10% 40%;
   }
   /* タイトルの文字・フォント */
   .card__title {
     display: block;
-    font-size: 20px;
-    margin-bottom: 8px;
+    font-size: 28px;
+    margin-left: 120px;
     font-weight: bold;
   }
   /* キャッチコピーの文字の大きさ */
   .card__summary {
     font-size: 16px;
+    margin-left: 100px;
   }
+  
   /* 投稿者名の位置 */
   .card__user {
     display: block;
@@ -207,7 +209,6 @@
     width: 50%;
     margin: 0 auto;
     padding: 16px 0;
-    
   }
   /* キャッチコピーの位置 */
   .prototype__detail{
@@ -302,8 +303,8 @@
   }
   /* フッター */
   .footer {
-    background-color: #999;
-    padding: 10px 0;
+    background-color: rgb(47, 238, 252);
+    padding: 30px 0;
   }
   /* フッターの文字の位置・サイズ */
   .copyright {
