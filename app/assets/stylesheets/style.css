@@ -27,10 +27,11 @@
   li {
     list-style: none;
   }
-  /* 画像の大きさ */
+  /* BuzPetロゴの画像の大きさ */
   img {
     max-width: 100%;
-    vertical-align: bottom;
+    
+    /* vertical-align: bottom; */
   }
   
    /*詳細ページの タイトルとキャッチコピーの文字いろ */
@@ -200,9 +201,15 @@ background-size:contain;
   }
   /* 写真と文字の距離・写真の形 */
   .card__img {
+    width: 300px;
+    height:200px;
     margin-top: 60px;
     margin-bottom: 30px;
-    border-radius: 50% 20% / 10% 40%;
+    /* border-radius: 30px; */
+    /* border-radius: 25% 10%; */
+    border-radius: 10% / 50%;
+    /* border-radius: 10px 100px / 120px; */
+    /* border-radius: 50% 20% / 10% 40%; */
   }
   /* タイトルの文字・フォント */
   .card__title {
@@ -247,8 +254,8 @@ background-size:contain;
   }
   /* 画像のいち */
   .pet__image{
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
+    margin: auto;
     padding: 16px 0;
   }
   /* キャッチコピーの位置 */
@@ -321,6 +328,7 @@ background-size:contain;
     margin-bottom: 32px;
     width: 50%;
   }
+  /* マイページ情報の枠の中 */
   .table__col1{
     text-align: left;
     font-weight: bold;
@@ -330,6 +338,7 @@ background-size:contain;
     width: 30%;
     padding: 8px;
   }
+  /* マイページ情報の枠の中 */
   .table__col2{
     text-align: left;
     border: 1px solid #f5f5f5;
@@ -373,7 +382,7 @@ background-size:contain;
       width: 48%;
       margin-bottom: 40px;
     }
-    .prototype_image{
+    .pet_image{
       width: 60%;
     }
   }
@@ -396,7 +405,7 @@ background-size:contain;
     .card__summary {
       font-size: 14px;
     }
-    .prototype_image{
+    .pet_image{
       width: 100%;
     }
     .table{

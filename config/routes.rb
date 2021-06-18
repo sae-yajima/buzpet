@@ -2,8 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
   root to: "pets#index"
   resources :pets do
-    resources :comments,only:[:new,:create,:destroy]do
-  end
+    resources :comments, only: :create
   end
   resources  :users,only: :show
 end

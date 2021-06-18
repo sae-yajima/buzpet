@@ -4,8 +4,10 @@ class PetsController < ApplicationController
    before_action :move_to_index, except: [:index, :show ]
 
     def index
+
       query = "SELECT * FROM pets"
       @pets = Pet.find_by_sql(query)
+      @pets = Pet.includes(:user).order("created_at DESC")
     end
     def new
       @pet = Pet.new
