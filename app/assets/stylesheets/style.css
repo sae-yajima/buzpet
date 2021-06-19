@@ -215,7 +215,7 @@ background-size:contain;
   .card__title {
     display: block;
     font-size: 28px;
-    margin-left: 120px;
+    margin: auto;
     font-weight: bold;
     color: rgb(91, 89, 89);
     

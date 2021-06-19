@@ -7,5 +7,5 @@ class User < ApplicationRecord
 
          has_many :pets
          has_many :comments
-         validates :name, :profile, :category,presence: true    
+         validates :nickname,:name, :profile, :category,presence: true    
 end
