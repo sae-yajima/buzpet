@@ -1,0 +1,37 @@
+<div class="main_user_show">
+  <div class="inner">
+    <div class="user__wrapper">
+      <h2 class="page-heading">
+        <%= @user.nickname%>さんs'Room
+      </h2>
+      
+      <table class="table">
+        <tbody>
+          <tr>
+            <th class="table__col1">名前</th>
+            <td class="table__col2"><%= @user.name%></td>
+          </tr>
+          <tr>
+            <th class="table__col1">特技・性格</th>
+            <td class="table__col2"><%= @user.profile %></td>
+          </tr>
+          <tr>
+            <th class="table__col1">種類</th>
+            <td class="table__col2"><%= @user.category%></td>
+          </tr>
+          <%# <tr>
+            <th class="table__col1">役職</th>
+            <td class="table__col2"><%= @user.position %>
+          <%# </tr> %>
+        </tbody>
+      </table>
+      <h2 class="page-heading">
+        <%= @user.nickname%>さんの投稿一覧
+      </h2>
+      <div class="user__card">
+        <%# 部分テンプレートでそのユーザーが投稿したプロトタイプ投稿一覧を表示する %>
+        <%= render partial: 'pets/pet', collection: @pets %>
+      </div>
+    </div>
+  </div>
+</div>

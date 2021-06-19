@@ -1,0 +1,414 @@
+/* リセットCSS */
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  ul,
+  li,
+  h1,
+  h2,
+  p,
+  div {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* welcome to BuzPet・編集の文字色 */
+  body {
+    font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
+    color: #561515;
+   
+   
+  }
+  
+  li {
+    list-style: none;
+  }
+  /* BuzPetロゴの画像の大きさ */
+  img {
+    max-width: 100%;
+    
+    /* vertical-align: bottom; */
+  }
+  
+   /*詳細ページの タイトルとキャッチコピーの文字いろ */
+  a {
+    text-decoration: none;
+    color: #530707;
+    
+  }
+  
+  /* ヘッダー */
+  
+  .header {
+    /* background-color: #94d1fa; */
+    /* margin-bottom: 48px; */
+    padding: 20px 0;
+    background-image: url("data:image/jpeg;base64,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");
+    /* background-size: cover; */
+
+  
+  }
+  /* トップ画面の画像を均等に配置 */
+  .inner {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  /* ログイン・投稿ボタンなど配置 */
+  .nav {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+  }
+  /* アプリ名のロゴサイズ指定 */
+  .logo {
+    width: 500px;
+    
+  }
+
+
+
+  /* ログイン・投稿ボタンの文字色、枠など */
+  .nav__btn{
+    display: inline-block;
+    padding: 15px;
+    font-size: 1em;
+    color: #9e6945;
+    text-decoration: none;
+    user-select: none;
+    /* border: 1px #ffffff solid; */
+    /* background: #e0e3fc; */
+    border-radius: 3px;
+    transition: 0.4s ease;
+  }
+  /* 登録機能ボタン触れると反応する */
+  .nav__btn:hover{
+    /* color: #fff; */
+    color: #8aa6cf;
+  }
+  
+  .nav__logout{
+    display: inline-block;
+    padding: 0.4em 1.6em;
+    font-size: 0.8em;
+    color: #87CEFA;
+    text-decoration: none;
+    user-select: none;
+  }
+  .nav__logout:hover{
+    opacity: 0.5;
+  }
+  
+  /* フォーム周り */
+  .form__wrapper{
+    min-height: calc(100vh - 161px);
+  }
+  
+  .form__text {
+    width: 50%;
+  }
+  
+  /* コメントボックスと送信ボタンの幅・文字色 */
+
+  .field{
+    margin: 10px 0;
+    color: rgb(56, 42, 42);
+  }
+  
+  /* コメントボックスの縦幅 */
+  .actions{
+    margin-bottom: 50px;
+  }
+  
+  /* コメントの送信ボタンの装飾 */
+  .form__btn{
+    /* /* display: inline-block; */
+    padding: 0.4em 1.6em;
+    font-size: 0.8em;
+    color: rgb(149, 90, 56);
+    text-decoration: none;
+    user-select: none;
+    background: #f4fafe;
+    border: 1px #575858 solid;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+    transition: 0.2s ease; 
+  }
+  
+  .form__btn:hover {
+    box-shadow: 0 8px 8px 0 rgba(93, 45, 5, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+  }
+  
+  /* メイン */
+  
+.main{
+      background-color: #f0d4c5;
+    /* background-image: url("")
+    /* background-size: cover; */
+  }
+
+.main_user_show{
+/* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwC5IzV9Ypdcm6rZ_9mxp5Aij4KVJbdf_xw&usqp=CAU"); */
+/* background-size: cover; */
+/* background-size:contain; */
+background-color: #beb0a8;
+}
+
+.main_show{
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbEW1S_N9kxc9Hs7Cg3rmraX-fiBhezUF3Fw&usqp=CAU");
+}
+.main_new{
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_osLd-nrBjzZbIt9WJGz94UQb927xg1gHMQ&usqp=CAU");
+background-size: cover;
+}
+.main_edit{
+background-image: url("data:image/jpeg;base64,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");
+/* background-size: cover; */
+background-size:contain;
+}
+
+
+  /* welcome to buzpetと写真の間の距離 */
+  /* .greeting{
+    margin-bottom: 0;
+  } */
+  .greeting__link{
+    text-decoration: underline;
+  }
+
+  .page-heading {
+    font-size: 30px;
+    margin-bottom: 28px;
+  }
+  /* 写真の並び・配置 */
+  .card__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: calc(100vh - 161px);
+  }
+  /* 写真の大きさ指定 ・キャッチコピー文字色*/
+  .card {
+    width: calc((100% - 50px) / 3);
+    margin-bottom: 40px;
+    color: rgb(61, 61, 61);
+  }
+  /* 写真と文字の距離・写真の形 */
+  .card__img {
+    width: 300px;
+    height:200px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    /* border-radius: 30px; */
+    /* border-radius: 25% 10%; */
+    border-radius: 10% / 50%;
+    /* border-radius: 10px 100px / 120px; */
+    /* border-radius: 50% 20% / 10% 40%; */
+  }
+  /* タイトルの文字・フォント */
+  .card__title {
+    display: block;
+    font-size: 28px;
+    margin: auto;
+    font-weight: bold;
+    color: rgb(91, 89, 89);
+    
+  }
+  /* キャッチコピーの文字の大きさ */
+  .card__summary {
+    font-size: 16px;
+    margin-left: 100px;
+  }
+  
+  /* 投稿者名の位置 */
+  .card__user {
+    display: block;
+    font-size: 12px;
+    color: rgb(56, 34, 34);
+    text-align: right;
+    text-decoration: underline;
+  }
+  
+  /* 詳細ページ */
+  .pet__wrapper{
+    min-height: calc(100vh - 161px);
+  }
+  /* タイトルの位置・フォント */
+  .pet__hedding{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .pet__user{
+    display: block;
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    text-decoration: underline;
+  }
+  /* 画像のいち */
+  .pet__image{
+    width: 40%;
+    margin: auto;
+    padding: 16px 0;
+  }
+  /* キャッチコピーの位置 */
+  .pet__detail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+  /* キャッチコピーの文字の大きさ */
+  .detail__title{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* 編集・削除ボタンの位置 */
+  .pet__manage{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+  }
+  /* 編集・削除ボタン */
+  .pet__btn{
+    display: block;
+    padding: 0.4em 1.6em;
+    font-size: 0.8em;
+    color: #999;
+    text-decoration: none;
+    user-select: none;
+    border: 1px #999 solid;
+    border-radius: 3px;
+    transition: 0.4s ease;
+    margin: 0 4px;
+  }
+  .pet__btn:hover{
+    color: #fff;
+    background: rgb(203, 164, 229);
+  }
+  
+  /* コメントボックスの枠 */
+  .pet__comments{
+    /* background-color: #b3fbff; */
+    padding: 20px;
+    /* margin: 28px 0 40px 0; */
+  }
+  
+  /* コメント左の枠からの距離 */
+  .comments_lists{
+    padding-left: 20px;
+  }
+  
+  /* コメントと枠の距離 */
+  .comments_list{
+    list-style-type: square;
+    padding-bottom: 5px;
+  }
+  
+  /* コメントしたユーザーの名前装飾 */
+  .comment_user{
+    font-size: 16px;
+    color: #999;
+    text-decoration: underline;
+  }
+  
+  /* ユーザーページ */
+  .user__wrapper{
+    min-height: calc(100vh - 161px);
+  }
+  .table{
+    border-collapse: collapse;
+    margin-bottom: 32px;
+    width: 50%;
+  }
+  /* マイページ情報の枠の中 */
+  .table__col1{
+    text-align: left;
+    font-weight: bold;
+    background: #fafafa;
+    border-collapse: collapse;
+    border: 1px solid #f5f5f5;
+    width: 30%;
+    padding: 8px;
+  }
+  /* マイページ情報の枠の中 */
+  .table__col2{
+    text-align: left;
+    border: 1px solid #f5f5f5;
+    background: #fafafa;
+    border-collapse: collapse;
+    width: 70%;
+    padding: 16px 8px;
+  }
+  .user__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* フッター */
+  .footer {
+    /* background-color: rgb(47, 238, 252); */
+    padding: 60px;
+    background-image: url("");
+    /* background-size: cover; */
+    /* background-size:contain; */
+    background-color: #fff4e4;
+  }
+  /* フッターの文字の位置・サイズ */
+  .copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+  }
+  
+  /* タブレット対応 */
+  @media (max-width: 1024px) {
+    .inner {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .page-heading {
+      font-size: 24px;
+    }
+    .card {
+      width: 48%;
+      margin-bottom: 40px;
+    }
+    .pet_image{
+      width: 60%;
+    }
+  }
+  
+   /* スマホ表示 */
+  @media (max-width: 599px) {
+    .logo {
+      width: 120px;
+    }
+    .page-heading {
+      font-size: 20px;
+    }
+    .card {
+      width: 100%;
+      margin-bottom: 60px;
+    }
+    .card__title {
+      font-size: 18px;
+    }
+    .card__summary {
+      font-size: 14px;
+    }
+    .pet_image{
+      width: 100%;
+    }
+    .table{
+      width: 100%;
+    }
+  }
