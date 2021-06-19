@@ -171,6 +171,9 @@ background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAA
 /* background-size: cover; */
 background-size:contain;
 }
+.main_seaech{
+
+}
 
 
   /* welcome to buzpetと写真の間の距離 */
@@ -198,6 +201,7 @@ background-size:contain;
     width: calc((100% - 50px) / 3);
     margin-bottom: 40px;
     color: rgb(61, 61, 61);
+    margin: auto;
   }
   /* 写真と文字の距離・写真の形 */
   .card__img {
@@ -368,6 +372,27 @@ background-size:contain;
     color: #fff;
     font-size: 10px;
   }
+
+
+
+  .search-form {
+    text-align: center;
+    padding-top: 32px;
+  }
+  
+  .search-form .search-input {
+    width: 30%;
+    margin-right: 5px;
+    padding: 15px;
+  }
+  
+  .search-form .search-btn {
+    width: 10%;
+    padding: 10px;
+    color: rgb(161, 77, 8);
+    background-color: #c6e1ee;
+  }
+  
   
   /* タブレット対応 */
   @media (max-width: 1024px) {

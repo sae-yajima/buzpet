@@ -1,7 +1,7 @@
 class PetsController < ApplicationController
   before_action :authenticate_user!,except: [:index,:show]
-   before_action :set_prototype, only: [:edit, :show]
-   before_action :move_to_index, except: [:index, :show ]
+   before_action :set_pet, only: [:edit, :show]
+   before_action :move_to_index, except: [:index, :show , :search]
 
     def index
 
@@ -55,12 +55,16 @@ class PetsController < ApplicationController
       
    end
 
+   def search
+    @pets = Pet.search(params[:keyword])
+   end
+
 
     private
  def pet_params
-   params.require(:pet).permit(:title,:image,:catch_copy).merge(user_id: current_user.id)
+   params.require(:pet).permit(:title,:image,:catch_copy).merge(user_id: current_user.id )
  end
- def set_prototype
+ def set_pet
   @pet = Pet.find(params[:id])
 end
 
