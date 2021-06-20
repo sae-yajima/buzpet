@@ -13,7 +13,10 @@
   div {
     margin: 0;
     padding: 0;
-    
+  }
+
+  h2{
+    margin-left: 70px;  
   }
   
   /* welcome to BuzPet・編集の文字色 */
@@ -30,6 +33,11 @@
   /* BuzPetロゴの画像の大きさ */
   img {
     max-width: 100%;
+    /* border-radius: 30px; */
+    border-radius: 25% 10%;
+    /* border-radius: 10% / 50%; */
+    /* border-radius: 10px 100px / 120px; */
+    /* border-radius: 50% 20% / 10% 40%; */
     
     /* vertical-align: bottom; */
   }
@@ -113,15 +121,24 @@
   }
   
   /* コメントボックスと送信ボタンの幅・文字色 */
-
+/* 　ログイン・新規登録画面の入力ボックス関係 */ 
   .field{
     margin: 10px 0;
+    margin-left: 40px;
     color: rgb(56, 42, 42);
+
   }
   
   /* コメントボックスの縦幅 */
   .actions{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    margin-left: 40px; 
+  }
+
+  /* 新規登録・ログイン画面のテキストボックスの形 */
+  input{
+    border-radius: 30px;
+    padding: 10px;
   }
   
   /* コメントの送信ボタンの装飾 */
@@ -132,11 +149,13 @@
     color: rgb(149, 90, 56);
     text-decoration: none;
     user-select: none;
-    background: #f4fafe;
+    background-color: #ffd6c1;
+    /* background: #f4fafe; */
     border: 1px #575858 solid;
     border-radius: 3px;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
     transition: 0.2s ease; 
+    border-radius: 30px;
   }
   
   .form__btn:hover {
@@ -218,6 +237,7 @@ background-size:contain;
   /* タイトルの文字・フォント */
   .card__title {
     display: block;
+    text-align: center;
     font-size: 28px;
     margin: auto;
     font-weight: bold;
@@ -227,7 +247,7 @@ background-size:contain;
   /* キャッチコピーの文字の大きさ */
   .card__summary {
     font-size: 16px;
-    margin-left: 100px;
+    text-align: center;
   }
   
   /* 投稿者名の位置 */
@@ -260,7 +280,9 @@ background-size:contain;
   .pet__image{
     width: 40%;
     margin: auto;
-    padding: 16px 0;
+    padding: 46px 0;
+    text-align: center;
+    
   }
   /* キャッチコピーの位置 */
   .pet__detail{
@@ -328,9 +350,10 @@ background-size:contain;
     min-height: calc(100vh - 161px);
   }
   .table{
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     margin-bottom: 32px;
     width: 50%;
+    
   }
   /* マイページ情報の枠の中 */
   .table__col1{
@@ -341,6 +364,8 @@ background-size:contain;
     border: 1px solid #f5f5f5;
     width: 30%;
     padding: 8px;
+    border-radius:5px;
+    text-align: center;
   }
   /* マイページ情報の枠の中 */
   .table__col2{
@@ -350,6 +375,9 @@ background-size:contain;
     border-collapse: collapse;
     width: 70%;
     padding: 16px 8px;
+    border-radius:5px;
+    text-align: center;
+    
   }
   .user__card {
     display: flex;
@@ -396,7 +424,7 @@ background-size:contain;
     padding: 10px;
     color: rgb(252, 231, 213);
     background-color: #925815;
-    border-radius:5px;
+    /* border-radius:5px; */
     /* border-radius:5px; */
     border-radius: 30px;
     /* border-radius: 10px 100px / 120px; */
