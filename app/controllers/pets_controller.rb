@@ -62,7 +62,7 @@ class PetsController < ApplicationController
 
     private
  def pet_params
-   params.require(:pet).permit(:title,:image,:catch_copy).merge(user_id: current_user.id )
+   params.require(:pet).permit(:title,:image,:catch_copy,).merge(user_id: current_user.id )
  end
  def set_pet
   @pet = Pet.find(params[:id])
