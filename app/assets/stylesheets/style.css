@@ -81,7 +81,7 @@
   }
 
   .nav__right{
-      margin-left: 100px;
+      margin-left: 180px;
   }
 
 
@@ -220,11 +220,14 @@ background-size: cover;
 background-position: right 35% bottom 45%;
 }
 
-.main_seaech{
-background-image: url("https://cdn.pixabay.com/photo/2015/08/22/15/39/giraffes-901009__480.jpg");
+.main_search{
+background-image: url("https://cdn.pixabay.com/photo/2014/11/08/01/20/bald-eagle-521492__480.jpg");
 background-size: cover;
 background-position: center;
+text-align: center;
+padding-bottom: 50px;
 }
+
 
 
   /* welcome to buzpetと写真の間の距離 */
@@ -349,6 +352,7 @@ background-position: center;
     border-radius: 3px;
     transition: 0.4s ease;
     margin: 0 4px;
+    background-color: #dfdfdf;
   }
   .pet__btn:hover{
     color: #fff;
