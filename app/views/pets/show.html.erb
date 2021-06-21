@@ -46,7 +46,7 @@
             <li class="comments_list">
            <p>
               <%=comment.text %>
-              <%= link_to comment.user.name,  user_path(comment.user.id), class: :comment_user %>
+              <%= link_to comment.user.nickname,  user_path(comment.user.id), class: :comment_user %>さん
              </p>
             </li>
               <% end %>

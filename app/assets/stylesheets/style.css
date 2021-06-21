@@ -17,12 +17,13 @@
 
   h2{
     margin-left: 70px;  
+    color: #000;
   }
   
-  /* welcome to BuzPet・編集の文字色 */
+  /* welcome to BuzPet・編集・マイページの情報の文字色 */
   body {
     font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
-    color: #561515;
+    color: #f3f3f3;
    
    
   }
@@ -45,7 +46,7 @@
    /*詳細ページの タイトルとキャッチコピーの文字いろ */
   a {
     text-decoration: none;
-    color: #530707;
+    color: #424242;
     
   }
   
@@ -54,9 +55,10 @@
   .header {
     /* background-color: #94d1fa; */
     /* margin-bottom: 48px; */
-    padding: 20px 0;
-    background-image: url("data:image/jpeg;base64,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");
-    /* background-size: cover; */
+    padding: 35px 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYforasG2eydLUcM981etFB8-yxClMeSUCQ&usqp=CAU");
+    background-size: cover;
+    background-position: center;
 
   
   }
@@ -64,6 +66,7 @@
   .inner {
     width: 1024px;
     margin: 0 auto;
+   
   }
   /* ログイン・投稿ボタンなど配置 */
   .nav {
@@ -75,7 +78,10 @@
   /* アプリ名のロゴサイズ指定 */
   .logo {
     width: 500px;
-    
+  }
+
+  .nav__right{
+      margin-left: 100px;
   }
 
 
@@ -85,7 +91,7 @@
     display: inline-block;
     padding: 15px;
     font-size: 1em;
-    color: #9e6945;
+    color: #131010;
     text-decoration: none;
     user-select: none;
     /* border: 1px #ffffff solid; */
@@ -114,6 +120,8 @@
   /* フォーム周り */
   .form__wrapper{
     min-height: calc(100vh - 161px);
+    backdrop-filter:blur(1.5px);
+    
   }
   
   .form__text {
@@ -125,13 +133,13 @@
   .field{
     margin: 10px 0;
     margin-left: 40px;
-    color: rgb(56, 42, 42);
+    color: rgb(22, 21, 21);
 
   }
   
   /* コメントボックスの縦幅 */
   .actions{
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     margin-left: 40px; 
   }
 
@@ -166,32 +174,56 @@
   /* メイン */
   
 .main{
-      background-color: #f0d4c5;
-    /* background-image: url("")
-    /* background-size: cover; */
-  }
+ padding-bottom: 120px;
+ background-image: url("https://cdn.pixabay.com/photo/2017/12/11/15/34/lion-3012515__480.jpg");
+ background-size: cover;
+ backdrop-filter:blur(10px);
+ /* backdrop-filter: grayscale(1); */
+ /* backdrop-filter: brightness(1.5); */
+ /* backdrop-filter: blur(5px); */
+ /* backdrop-filter: contrast(.8); */
+ /* backdrop-filter: invert(.7); */
+ /* backdrop-filter: opacity(.4); */
+ /* backdrop-filter: sepia(.4); */
+ /* backdrop-filter: saturate(1.8); */
+ /* backdrop-filter: hue-rotate(120deg); */
+    /* background-size:contain; */
+    /* background-color: #f0d4c5; */
+ }
 
+/* マイページ */
 .main_user_show{
-/* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwC5IzV9Ypdcm6rZ_9mxp5Aij4KVJbdf_xw&usqp=CAU"); */
-/* background-size: cover; */
-/* background-size:contain; */
-background-color: #beb0a8;
-}
-
-.main_show{
- background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbEW1S_N9kxc9Hs7Cg3rmraX-fiBhezUF3Fw&usqp=CAU");
-}
-.main_new{
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_osLd-nrBjzZbIt9WJGz94UQb927xg1gHMQ&usqp=CAU");
+background-image: url("https://cdn.pixabay.com/photo/2019/05/01/09/50/swan-4170400__480.jpg");
 background-size: cover;
-}
-.main_edit{
-background-image: url("data:image/jpeg;base64,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");
-/* background-size: cover; */
-background-size:contain;
-}
-.main_seaech{
 
+/* background-size:contain; */
+/* background-color: #beb0a8; */
+}
+/* 詳細ページ */
+.main_show{
+ background-image: url("https://cdn.pixabay.com/photo/2017/05/18/15/05/chipmunk-2323827__480.jpg");
+ background-size: cover;
+ /* background-position: top; */
+}
+/* 新規投稿ページ */
+.main_new{
+background-image: url("https://cdn.pixabay.com/photo/2016/08/22/12/02/butterfly-1611794__480.jpg");
+background-size: cover;
+background-position: top;
+}
+/* 編集ページ */
+.main_edit{
+background-image: url("https://cdn.pixabay.com/photo/2019/02/22/10/26/swan-4013225__480.jpg");
+/* background-size:contain; */
+background-size: cover;
+/* background-position: center; */
+background-position: right 35% bottom 45%;
+}
+
+.main_seaech{
+background-image: url("https://cdn.pixabay.com/photo/2015/08/22/15/39/giraffes-901009__480.jpg");
+background-size: cover;
+background-position: center;
 }
 
 
@@ -214,12 +246,13 @@ background-size:contain;
     justify-content: space-between;
     align-items: center;
     min-height: calc(100vh - 161px);
+    backdrop-filter:blur(4px);
   }
   /* 写真の大きさ指定 ・キャッチコピー文字色*/
   .card {
     width: calc((100% - 50px) / 3);
     margin-bottom: 40px;
-    color: rgb(61, 61, 61);
+    color: rgb(241, 241, 241);
     margin: auto;
   }
   /* 写真と文字の距離・写真の形 */
@@ -227,7 +260,7 @@ background-size:contain;
     width: 300px;
     height:200px;
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     /* border-radius: 30px; */
     /* border-radius: 25% 10%; */
     border-radius: 10% / 50%;
@@ -241,7 +274,7 @@ background-size:contain;
     font-size: 28px;
     margin: auto;
     font-weight: bold;
-    color: rgb(91, 89, 89);
+    color: rgb(247, 242, 242);
     
   }
   /* キャッチコピーの文字の大きさ */
@@ -254,7 +287,7 @@ background-size:contain;
   .card__user {
     display: block;
     font-size: 12px;
-    color: rgb(56, 34, 34);
+    color: rgb(211, 211, 211);
     text-align: right;
     text-decoration: underline;
   }
@@ -262,6 +295,8 @@ background-size:contain;
   /* 詳細ページ */
   .pet__wrapper{
     min-height: calc(100vh - 161px);
+    backdrop-filter:blur(3px);
+    
   }
   /* タイトルの位置・フォント */
   .pet__hedding{
@@ -330,24 +365,31 @@ background-size:contain;
   /* コメント左の枠からの距離 */
   .comments_lists{
     padding-left: 20px;
+   
   }
   
   /* コメントと枠の距離 */
   .comments_list{
     list-style-type: square;
-    padding-bottom: 5px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+  }
+  /* 投稿されたコメントの文字色 */
+  p{
+    color: #000;
   }
   
   /* コメントしたユーザーの名前装飾 */
   .comment_user{
     font-size: 16px;
-    color: #999;
+    color: rgb(34, 32, 32);
     text-decoration: underline;
   }
   
   /* ユーザーページ */
   .user__wrapper{
     min-height: calc(100vh - 161px);
+    backdrop-filter:blur(1px);
   }
   .table{
     /* border-collapse: collapse; */
@@ -359,6 +401,7 @@ background-size:contain;
   .table__col1{
     text-align: left;
     font-weight: bold;
+    color: rgb(155, 89, 13);
     background: #fafafa;
     border-collapse: collapse;
     border: 1px solid #f5f5f5;
@@ -366,10 +409,12 @@ background-size:contain;
     padding: 8px;
     border-radius:5px;
     text-align: center;
+   
   }
   /* マイページ情報の枠の中 */
   .table__col2{
     text-align: left;
+    color: rgb(155, 89, 13);
     border: 1px solid #f5f5f5;
     background: #fafafa;
     border-collapse: collapse;
@@ -389,7 +434,9 @@ background-size:contain;
   .footer {
     /* background-color: rgb(47, 238, 252); */
     padding: 60px;
-    background-image: url("");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYforasG2eydLUcM981etFB8-yxClMeSUCQ&usqp=CAU");
+    background-position: bottom;
+    background-size: cover;
     /* background-size: cover; */
     /* background-size:contain; */
     background-color: #fff4e4;
@@ -432,6 +479,13 @@ background-size:contain;
     /* border-radius: 25% 10%; */
   }
   
+  .registration_new{
+      background-color: #bdf5ff;
+  }
+  .sessions_new{
+    background-color: #bdf5ff;
+    padding-bottom: 230px;
+  }
   
   /* タブレット対応 */
   @media (max-width: 1024px) {
