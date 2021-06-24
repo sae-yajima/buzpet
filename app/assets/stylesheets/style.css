@@ -201,9 +201,9 @@ background-size: cover;
 }
 /* 詳細ページ */
 .main_show{
- background-image: url("https://cdn.pixabay.com/photo/2017/05/18/15/05/chipmunk-2323827__480.jpg");
+ background-image: url("https://cdn.pixabay.com/photo/2014/05/14/00/49/starfish-343791__480.jpg");
  background-size: cover;
- /* background-position: top; */
+ background-position: center;
 }
 /* 新規投稿ページ */
 .main_new{
