@@ -5,4 +5,9 @@ class UsersController < ApplicationController
         @pets = @user.pets
 
     end
+
+    def search
+        @users = User.search(params[:keyword])
+     end
+    
 end
