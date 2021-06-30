@@ -129,7 +129,7 @@
   }
   
   /* コメントボックスと送信ボタンの幅・文字色 */
-/* 　ログイン・新規登録画面の入力ボックス関係 */ 
+/* ログイン・新規登録画面の入力ボックス関係 */ 
   .field{
     margin: 10px 0;
     margin-left: 40px;
@@ -266,8 +266,8 @@ padding-bottom: 50px;
     margin-bottom: 10px;
     /* border-radius: 30px; */
     /* border-radius: 25% 10%; */
-    border-radius: 10% / 50%;
-    /* border-radius: 10px 100px / 120px; */
+    /* border-radius: 10% / 50%; */
+    border-radius: 10px 100px / 120px;
     /* border-radius: 50% 20% / 10% 40%; */
   }
   /* タイトルの文字・フォント */

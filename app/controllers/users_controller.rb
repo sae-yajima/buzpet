@@ -5,7 +5,5 @@ class UsersController < ApplicationController
         @name = @user.name
         @pets = @user.pets
     end
-     
-    
     
 end
