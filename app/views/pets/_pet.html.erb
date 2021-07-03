@@ -4,7 +4,6 @@
    <div class='star-btn'>
     <%= link_to "#{pet.title}", pet_path(pet.id),  method: :get,class: :card__title%><br><%= image_tag "star.png", class:"star-icon" %> <span class='star-count'>0</span>
      </div>
-
     <p class="card__summary">
       <%= "#{pet.catch_copy}" %>
     </p>
