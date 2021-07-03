@@ -1,9 +1,0 @@
-<% if pet.liked_by?(current_user) %>
-   <%= link_to(pet_add_path(pet), method: :delete, remote: true, id: :"like-button-#{pet.id}") do %>
-       <i class="fa-lg fas fa-heart icon-btn liked"></i>
-   <% end %>
-<% else %>
-   <%= link_to(pet_add_path(pet), method: :pet, remote: true, id: :"like-button-#{pet.id}") do %>
-       <i class="fa-lg fas fa-heart icon-btn not-like"></i>
-   <% end %>
-<% end %>

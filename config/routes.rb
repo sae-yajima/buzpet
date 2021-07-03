@@ -7,9 +7,5 @@ root to: "pets#index"
       get 'search'
      end
   end
-   resources :posts do
-    post 'add' => 'likes#create'
-    delete '/add' => 'likes#destroy'
-   end
   resources  :users,only: :show
 end

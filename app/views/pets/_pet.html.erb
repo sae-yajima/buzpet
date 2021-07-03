@@ -1,8 +1,10 @@
 <div class="card">
   <%= link_to image_tag(pet.image, class: :card__img ), pet_path(pet.id)%>
   <div class="card__body">
-   <div class='star-btn'>
-    <%= link_to "#{pet.title}", pet_path(pet.id),  method: :get,class: :card__title%><br><%= image_tag "star.png", class:"star-icon" %><span class='star-count'></span>/
+    <%= link_to "#{pet.title}", pet_path(pet.id),  method: :get,class: :card__title%>
+    <div class='star-btn'>
+    <%= image_tag "star.png", class:"star-icon" %><span class='star-count'></span>
+    </div>
     <p class="card__summary">
       <%= "#{pet.catch_copy}" %>
     </p>
