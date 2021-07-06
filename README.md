@@ -4,20 +4,20 @@
 
 
 # 概要
-ユーザー管理機能　　
-・ユーザーの新規登録ができる
-・ユーザーのログイン、ログアウトができる
+ユーザー管理機能
+・ペットの日常や写真を投稿できるアプリ
 
-画像投稿機能　
+
+画像投稿機能
 ・画像を投稿できる
 ・投稿を編集、削除できる
 
-コメント機能　　
+コメント機能
 ・投稿されている画像にコメントできる
 ・コメントしたをしたユーザーの名前が表示される
 ・コメントしたユーザーのページに遷移できる
 
-検索機能　
+検索機能
 ・投稿されている画像のタイトルを検索できる
 
 # 本番環境
@@ -33,24 +33,33 @@ URL:https://buzpet.herokuapp.com/
 
 # DEMO
 ・トップページ
-https://i.gyazo.com/456d04f9d4d5841a6e1d3e401ea47b87.jpg
+[![Image from Gyazo](https://i.gyazo.com/d893da59eef37637f2ad9639087d3569.gif)](https://gyazo.com/d893da59eef37637f2ad9639087d3569)
+
 
 
 ・新規登録画面
-https://i.gyazo.com/1f5561667864dfc532aaa93644759a2a.png
+[![Image from Gyazo](https://i.gyazo.com/cb7946151ec021701452ec84fc9fe41e.gif)](https://gyazo.com/cb7946151ec021701452ec84fc9fe41e)
 
 ・投稿画面
-https://i.gyazo.com/412cdeaaa9b6099ceae57b6f5106a5b2.jpg
+[![Image from Gyazo](https://i.gyazo.com/6be1b55a5a278c21eb2552724eb52b22.gif)](https://gyazo.com/6be1b55a5a278c21eb2552724eb52b22)
 
 
 ・編集画面
-https://i.gyazo.com/5f7f73d81e80d669e424d32581eecba8.jpg
+[![Image from Gyazo](https://i.gyazo.com/fbbfb7b801bab8da7a67e1568e7edf4e.gif)](https://gyazo.com/fbbfb7b801bab8da7a67e1568e7edf4e)
+
 
 ・詳細画面
-https://i.gyazo.com/1caf0df9841d441ae294b4367cb91796.jpg
+[![Image from Gyazo](https://i.gyazo.com/39c9a2a7608dd2b02feec5fd389d349c.gif)](https://gyazo.com/39c9a2a7608dd2b02feec5fd389d349c)
 
 ・マイページ
-https://i.gyazo.com/0522cce3746bb6848db17cf56e6cb893.jpg
+[![Image from Gyazo](https://i.gyazo.com/bce19e84a3f34a8f82732d5e2e20860c.gif)](https://gyazo.com/bce19e84a3f34a8f82732d5e2e20860c)
+
+・コメント機能
+[![Image from Gyazo](https://i.gyazo.com/878cc104dff89d1d0636d2d936d95e7b.gif)](https://gyazo.com/878cc104dff89d1d0636d2d936d95e7b)
+
+
+・検索機能
+[![Image from Gyazo](https://i.gyazo.com/bb1c3bf2c857878ee222c77f75a9fbc8.gif)](https://gyazo.com/bb1c3bf2c857878ee222c77f75a9fbc8)
 
 
 # 工夫したポイント
