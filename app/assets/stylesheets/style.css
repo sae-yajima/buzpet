@@ -25,7 +25,6 @@
     font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
     color: #f3f3f3;
    
-   
   }
   
   li {
@@ -66,7 +65,8 @@
   .inner {
     width: 1024px;
     margin: 0 auto;
-   
+  
+  
   }
   /* ログイン・投稿ボタンなど配置 */
   .nav {
@@ -81,7 +81,7 @@
   }
 
   .nav__right{
-      margin-left: 180px;
+   margin-left: 180px;
   }
 
 
@@ -173,11 +173,12 @@
   
   /* メイン */
   
-.main{
- padding-bottom: 120px;
- background-image: url("https://cdn.pixabay.com/photo/2017/12/11/15/34/lion-3012515__480.jpg");
+ .main{
+ /* padding-bottom: 120px;  */
+ overflow: auto;
+ /* background-image: url("https://cdn.pixabay.com/photo/2017/12/11/15/34/lion-3012515__480.jpg");
  background-size: cover;
- backdrop-filter:blur(10px);
+ backdrop-filter:blur(10px); */ 
  /* backdrop-filter: grayscale(1); */
  /* backdrop-filter: brightness(1.5); */
  /* backdrop-filter: blur(5px); */
@@ -250,6 +251,7 @@ padding-bottom: 50px;
     align-items: center;
     min-height: calc(100vh - 161px);
     backdrop-filter:blur(4px);
+
   }
   /* 写真の大きさ指定 ・キャッチコピー文字色*/
   .card {
@@ -492,6 +494,19 @@ padding-bottom: 50px;
     padding-bottom: 230px;
   }
 
+  /* body{
+    background-color: #c91616;
+    padding: 0px;
+    margin: 0px;
+  } */
+ 
+ #gradient
+ {
+   width: 100%;
+   height: auto;
+   padding: 0px;
+   margin: 0px;
+ }
   
   /* タブレット対応 */
   @media (max-width: 1024px) {
