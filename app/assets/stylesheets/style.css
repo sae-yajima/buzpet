@@ -311,6 +311,10 @@ padding-bottom: 50px;
   
   /* 詳細ページ */
   .pet__wrapper{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
     min-height: calc(100vh - 161px);
     backdrop-filter:blur(3px);
     
@@ -330,7 +334,7 @@ padding-bottom: 50px;
   }
   /* 画像のいち */
   .pet__image{
-    width: 40%;
+    width: 100%;
     margin: auto;
     padding: 46px 0;
     text-align: center;
@@ -408,6 +412,7 @@ padding-bottom: 50px;
   .user__wrapper{
     min-height: calc(100vh - 161px);
     backdrop-filter:blur(1px);
+    margin: auto;
   }
   .table{
     /* border-collapse: collapse; */
@@ -447,6 +452,7 @@ padding-bottom: 50px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+   
   }
   /* フッター */
   .footer {
