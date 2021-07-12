@@ -32,11 +32,13 @@
   }
   /* BuzPetロゴの画像の大きさ */
   img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 80%;
+    height: 80%;
     /* justify-content: space-around; */
     /* border-radius: 30px; */
-    border-radius: 25% 10%;
-    /* border-radius: 10% / 50%; */
+    /* border-radius: 25% 10%; */
+    border-radius: 10% / 50%;
     /* border-radius: 10px 100px / 120px; */
     /* border-radius: 50% 20% / 10% 40%; */
     
@@ -334,9 +336,11 @@ padding-bottom: 50px;
   }
   /* 画像のいち */
   .pet__image{
-    width: 100%;
+    /* width: 100%; */
+    width: 450px;
+    height:400px;
     margin: auto;
-    padding: 46px 0;
+    padding: 30px 0;
     text-align: center;
     
   }
@@ -380,7 +384,7 @@ padding-bottom: 50px;
   /* コメントボックスの枠 */
   .pet__comments{
     /* background-color: #b3fbff; */
-    padding: 20px;
+    /* padding: 20px; */
     /* margin: 28px 0 40px 0; */
   }
   
