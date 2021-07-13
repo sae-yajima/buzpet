@@ -462,7 +462,7 @@ padding-bottom: 50px;
   .footer {
     /* background-color: rgb(47, 238, 252); */
     padding: 100px;
-    margin:auto;
+    margin: auto;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYforasG2eydLUcM981etFB8-yxClMeSUCQ&usqp=CAU");
     background-position: bottom;
     background-size: cover;
@@ -549,13 +549,7 @@ padding-bottom: 50px;
 .bg3 {
   animation-duration:5s;
 }
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
+ 
 
   
   /* タブレット対応 */
@@ -601,3 +595,10 @@ padding-bottom: 50px;
       width: 100%;
     }
   }
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
