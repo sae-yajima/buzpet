@@ -283,8 +283,8 @@ padding-bottom: 50px;
     /* border-radius: 30px; */
     /* border-radius: 25% 10%; */
     /* border-radius: 10% / 50%; */
-    border-radius: 10px 100px / 120px;
-    /* border-radius: 50% 20% / 10% 40%; */
+    /* border-radius: 10px 100px / 120px; */
+    border-radius: 50% 20% / 10% 40%;
   }
   /* タイトルの文字・フォント */
   .card__title {
@@ -461,7 +461,8 @@ padding-bottom: 50px;
   /* フッター */
   .footer {
     /* background-color: rgb(47, 238, 252); */
-    padding: 60px;
+    padding: 80px;
+    margin-top: 130px;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYforasG2eydLUcM981etFB8-yxClMeSUCQ&usqp=CAU");
     background-position: bottom;
     background-size: cover;
@@ -508,11 +509,11 @@ padding-bottom: 50px;
   }
   
   .registration_new{
-      background-color: #bdf5ff;
+   /* background-color: #bdf5ff; */
   }
   .sessions_new{
-    background-color: #bdf5ff;
-    padding-bottom: 230px;
+    /* background-color: #bdf5ff;
+    padding-bottom: 230px; */
   }
 
   /* body{
@@ -528,6 +529,34 @@ padding-bottom: 50px;
    padding: 0px;
    margin: 0px;
  }
+ .bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+
   
   /* タブレット対応 */
   @media (max-width: 1024px) {
