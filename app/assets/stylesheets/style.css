@@ -461,8 +461,8 @@ padding-bottom: 50px;
   /* フッター */
   .footer {
     /* background-color: rgb(47, 238, 252); */
-    padding: 80px;
-    margin-top: 130px;
+    padding: 100px;
+    margin:auto;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvYforasG2eydLUcM981etFB8-yxClMeSUCQ&usqp=CAU");
     background-position: bottom;
     background-size: cover;
