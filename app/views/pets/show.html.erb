@@ -1,18 +1,13 @@
 <main class="main_show">
   <div class="inner">
     <div class="pet__wrapper">
-      <%# <p class="prototype__hedding">
-        <%=link_to @pet.title%>
-      <%# </p> %> 
-      <%# <%= link_to"by#{@pet.user.name}",user_path(@pet.id),method: :get,class: :pet__user %> 
-      <%# プロトタイプの投稿者とログインしているユーザーが同じであれば以下を表示する %>
+
       <% if user_signed_in? && current_user.id == @pet.user_id %>
         <div class="pet__manage">
           <%= link_to "編集する", edit_pet_path(@pet.id), method: :get , class: :pet__btn %>
           <%= link_to "削除する", pet_path(@pet.id),method: :delete, class: :pet__btn %>
         </div>
         <% end %>
-      <%# // プロトタイプの投稿者とログインしているユーザーが同じであれば上記を表示する %>
       <div class="pet__image">
         <%= image_tag @pet.image%>
       </div>
@@ -27,7 +22,6 @@
           </p>
         </div>
         <div class="pet__comments">
-        <%# ログインしているユーザーには以下のコメント投稿フォームを表示する %>
          <% if user_signed_in? %>
           <%= form_with model: [@pet, @comment],local: true do |f|%>
             <div class="field">
@@ -38,20 +32,17 @@
                <%= f.submit "送信する", class: :form__btn  %>
             </div>
             <% end %>
-          <% end %> 
-        <%# // ログインしているユーザーには上記を表示する %>
+          <% end %>
         <ul class="comments_lists">
-          <%# 投稿に紐づくコメントを一覧する処理を記述する %>
             <% @comments.each do |comment| %>
             <li class="comments_list">
            <p>
               <%=comment.text %>
-              <%= link_to comment.user.nickname,  user_path(comment.user.id), class: :comment_user %>さん
+              <%= link_to comment.user.nickname,user_path(comment.user.id), class: :comment_user %>さん
              </p>
             </li>
               <% end %>
-          <%# // 投稿に紐づくコメントを一覧する処理を記述する %>
-          
+
         </ul>
       </div>
     </div>
