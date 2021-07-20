@@ -38,28 +38,25 @@ https://user-images.githubusercontent.com/83489031/126300169-262ccafa-58af-434d-
 
 
 ・新規登録画面
-[![Image from Gyazo](https://i.gyazo.com/cb7946151ec021701452ec84fc9fe41e.gif)](https://gyazo.com/cb7946151ec021701452ec84fc9fe41e)
+https://user-images.githubusercontent.com/83489031/126306304-6ceb7eee-1da3-44d7-aeac-aa7d1f670b00.mp4
 
 ・投稿画面
-[![Image from Gyazo](https://i.gyazo.com/6be1b55a5a278c21eb2552724eb52b22.gif)](https://gyazo.com/6be1b55a5a278c21eb2552724eb52b22)
-
+https://user-images.githubusercontent.com/83489031/126306069-240ae9ab-7233-4534-b0e4-80dfe455138e.mp4
 
 ・編集画面
-[![Image from Gyazo](https://i.gyazo.com/fbbfb7b801bab8da7a67e1568e7edf4e.gif)](https://gyazo.com/fbbfb7b801bab8da7a67e1568e7edf4e)
+https://user-images.githubusercontent.com/83489031/126305104-97dc3d6b-9252-4c10-8774-a56df822357c.mp4
 
 
 ・詳細画面
-[![Image from Gyazo](https://i.gyazo.com/39c9a2a7608dd2b02feec5fd389d349c.gif)](https://gyazo.com/39c9a2a7608dd2b02feec5fd389d349c)
-
+https://user-images.githubusercontent.com/83489031/126305179-e931d28b-2652-40e2-8de4-e8dc15e82bff.mp4
 ・マイページ
-[![Image from Gyazo](https://i.gyazo.com/bce19e84a3f34a8f82732d5e2e20860c.gif)](https://gyazo.com/bce19e84a3f34a8f82732d5e2e20860c)
+https://user-images.githubusercontent.com/83489031/126303564-9b2b2fcf-1304-47c6-8f9a-44cc5129a9ed.mp4
 
 ・コメント機能
-[![Image from Gyazo](https://i.gyazo.com/878cc104dff89d1d0636d2d936d95e7b.gif)](https://gyazo.com/878cc104dff89d1d0636d2d936d95e7b)
-
+https://user-images.githubusercontent.com/83489031/126304950-39a04620-ec65-48fa-bb42-a3da9f2c5567.mp4
 
 ・検索機能
-[![Image from Gyazo](https://i.gyazo.com/bb1c3bf2c857878ee222c77f75a9fbc8.gif)](https://gyazo.com/bb1c3bf2c857878ee222c77f75a9fbc8)
+https://user-images.githubusercontent.com/83489031/126305003-3621c1a8-cb7e-4a83-9faf-712e737d302e.mp4
 
 
 # 工夫したポイント
