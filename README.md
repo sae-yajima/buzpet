@@ -34,29 +34,33 @@ URL:https://buzpet.herokuapp.com/
 
 # DEMO
 ・トップページ
-https://user-images.githubusercontent.com/83489031/126300169-262ccafa-58af-434d-8d09-6300ab841fe8.mp4
+[![Image from Gyazo](https://i.gyazo.com/894349979608611669859198eb6757f6.gif)](https://gyazo.com/894349979608611669859198eb6757f6)
 
 
 ・新規登録画面
-https://user-images.githubusercontent.com/83489031/126306304-6ceb7eee-1da3-44d7-aeac-aa7d1f670b00.mp4
+[![Image from Gyazo](https://i.gyazo.com/099995f6b0522772cb71138e804b6aab.gif)](https://gyazo.com/099995f6b0522772cb71138e804b6aab)
 
 ・投稿画面
-https://user-images.githubusercontent.com/83489031/126306069-240ae9ab-7233-4534-b0e4-80dfe455138e.mp4
+[![Image from Gyazo](https://i.gyazo.com/0f7a94de784adc57b3363b1a82689fbc.gif)](https://gyazo.com/0f7a94de784adc57b3363b1a82689fbc)
 
 ・編集画面
-https://user-images.githubusercontent.com/83489031/126305104-97dc3d6b-9252-4c10-8774-a56df822357c.mp4
+[![Image from Gyazo](https://i.gyazo.com/fbbfb7b801bab8da7a67e1568e7edf4e.gif)](https://gyazo.com/fbbfb7b801bab8da7a67e1568e7edf4e)
 
 
 ・詳細画面
-https://user-images.githubusercontent.com/83489031/126305179-e931d28b-2652-40e2-8de4-e8dc15e82bff.mp4
+[![Image from Gyazo](https://i.gyazo.com/a288d32d99b14014dd531959299026f5.gif)](https://gyazo.com/a288d32d99b14014dd531959299026f5)
+
 ・マイページ
-https://user-images.githubusercontent.com/83489031/126303564-9b2b2fcf-1304-47c6-8f9a-44cc5129a9ed.mp4
+[![Image from Gyazo](https://i.gyazo.com/da754665db4c498a69baf154f725d3ba.gif)](https://gyazo.com/da754665db4c498a69baf154f725d3ba)
 
 ・コメント機能
-https://user-images.githubusercontent.com/83489031/126304950-39a04620-ec65-48fa-bb42-a3da9f2c5567.mp4
+[![Image from Gyazo](https://i.gyazo.com/714eecf795af5dd52d87f1a1ea2e8edd.gif)](https://gyazo.com/714eecf795af5dd52d87f1a1ea2e8edd)
+
 
 ・検索機能
-https://user-images.githubusercontent.com/83489031/126305003-3621c1a8-cb7e-4a83-9faf-712e737d302e.mp4
+[![Image from Gyazo](https://i.gyazo.com/a4832bf2149cae9b6ec5ba05bf03db3c.gif)](https://gyazo.com/a4832bf2149cae9b6ec5ba05bf03db3c)
+
+
 
 
 # 工夫したポイント
