@@ -34,8 +34,7 @@ URL:https://buzpet.herokuapp.com/
 
 # DEMO
 ・トップページ
-[![Image from Gyazo](https://i.gyazo.com/894349979608611669859198eb6757f6.gif)](https://gyazo.com/894349979608611669859198eb6757f6)
-
+https://user-images.githubusercontent.com/83489031/126761185-26171811-6906-4b45-a57d-70fc5c3cfab5.mp4
 
 ・新規登録画面
 [![Image from Gyazo](https://i.gyazo.com/099995f6b0522772cb71138e804b6aab.gif)](https://gyazo.com/099995f6b0522772cb71138e804b6aab)
