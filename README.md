@@ -40,6 +40,7 @@ URL:https://buzpet.herokuapp.com/
 ・新規登録画面
 [![Image from Gyazo](https://i.gyazo.com/099995f6b0522772cb71138e804b6aab.gif)](https://gyazo.com/099995f6b0522772cb71138e804b6aab)
 
+
 ・投稿画面
 [![Image from Gyazo](https://i.gyazo.com/0f7a94de784adc57b3363b1a82689fbc.gif)](https://gyazo.com/0f7a94de784adc57b3363b1a82689fbc)
 
@@ -58,8 +59,7 @@ URL:https://buzpet.herokuapp.com/
 
 
 ・検索機能
-[![Image from Gyazo](https://i.gyazo.com/a4832bf2149cae9b6ec5ba05bf03db3c.gif)](https://gyazo.com/a4832bf2149cae9b6ec5ba05bf03db3c)
-
+[![Image from Gyazo](https://i.gyazo.com/a4832bf2149cae9b6ec5ba05bf03db3c.gif)](https://gyazo.com/a4832bf2149cae9b6ec5ba05bf03db3c.gif)
 
 
 
