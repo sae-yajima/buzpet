@@ -34,32 +34,33 @@ URL:https://buzpet.herokuapp.com/
 
 # DEMO
 ・トップページ
-https://user-images.githubusercontent.com/83489031/126761185-26171811-6906-4b45-a57d-70fc5c3cfab5.mp4
+![トップページ](https://user-images.githubusercontent.com/83489031/126764510-f28b1275-ff63-4e26-8332-c7c69bdec978.gif)
+
 
 ・新規登録画面
 [![Image from Gyazo](https://i.gyazo.com/099995f6b0522772cb71138e804b6aab.gif)](https://gyazo.com/099995f6b0522772cb71138e804b6aab)
 
 
 ・投稿画面
-[![Image from Gyazo](https://i.gyazo.com/0f7a94de784adc57b3363b1a82689fbc.gif)](https://gyazo.com/0f7a94de784adc57b3363b1a82689fbc)
+![投稿](https://user-images.githubusercontent.com/83489031/126763674-121acf2f-b140-4381-be88-91f09974d284.gif)
 
 ・編集画面
-[![Image from Gyazo](https://i.gyazo.com/fbbfb7b801bab8da7a67e1568e7edf4e.gif)](https://gyazo.com/fbbfb7b801bab8da7a67e1568e7edf4e)
+![編集](https://user-images.githubusercontent.com/83489031/126763484-79677c1c-1ac6-4787-b9d1-8b42cb06acea.gif)
 
 
 ・詳細画面
-[![Image from Gyazo](https://i.gyazo.com/a288d32d99b14014dd531959299026f5.gif)](https://gyazo.com/a288d32d99b14014dd531959299026f5)
+![詳細](https://user-images.githubusercontent.com/83489031/126763355-88d1d4c9-099f-46a3-940f-84281679762c.gif)
+
 
 ・マイページ
-[![Image from Gyazo](https://i.gyazo.com/da754665db4c498a69baf154f725d3ba.gif)](https://gyazo.com/da754665db4c498a69baf154f725d3ba)
+![マイページ](https://user-images.githubusercontent.com/83489031/126763184-897f42ba-7c69-48f5-b5d8-496a29e6b6a4.gif)
 
 ・コメント機能
-[![Image from Gyazo](https://i.gyazo.com/714eecf795af5dd52d87f1a1ea2e8edd.gif)](https://gyazo.com/714eecf795af5dd52d87f1a1ea2e8edd)
-
+![コメント2](https://user-images.githubusercontent.com/83489031/126763026-385cbc38-c4fc-4cc3-b1b8-561db2848e5f.gif)
 
 ・検索機能
-[![Image from Gyazo](https://i.gyazo.com/a4832bf2149cae9b6ec5ba05bf03db3c.gif)](https://gyazo.com/a4832bf2149cae9b6ec5ba05bf03db3c.gif)
 
+![検索](https://user-images.githubusercontent.com/83489031/126761954-856dae85-206f-4f08-be0d-ffdc74e96caf.gif)
 
 
 # 工夫したポイント
