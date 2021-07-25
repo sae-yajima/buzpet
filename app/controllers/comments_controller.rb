@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
     def create
-        @comment = Comment.new(comment_params)
+       @comment = Comment.new(comment_params)
     if @comment.save
       redirect_to pet_path(@comment.pet) 
     else
@@ -9,6 +9,8 @@ class CommentsController < ApplicationController
       render "pets/show" 
      end
     end
+
+  
 
     private
   def comment_params

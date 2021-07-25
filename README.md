@@ -26,6 +26,7 @@ URL:https://buzpet.herokuapp.com/
 ログイン情報(テスト用)
 ・Eメール:aaa@aaa
 ・パスワード:aaa111
+・ここではサンプル画像、登録者はアニメキャラで代用(本来は登録者のペットの画像を投稿)
 
 
 # 製作背景
@@ -34,33 +35,25 @@ URL:https://buzpet.herokuapp.com/
 
 # DEMO
 ・トップページ
-![トップページ](https://user-images.githubusercontent.com/83489031/126764510-f28b1275-ff63-4e26-8332-c7c69bdec978.gif)
-
+![e7440076475eddc6b055396b8ae5f894](https://user-images.githubusercontent.com/83489031/126901983-f90a359b-a331-47cf-b7da-d9ba0909117f.gif)
 
 ・新規登録画面
-[![Image from Gyazo](https://i.gyazo.com/099995f6b0522772cb71138e804b6aab.gif)](https://gyazo.com/099995f6b0522772cb71138e804b6aab)
+![13f2e6a62bd38841d39591f7e431493f](https://user-images.githubusercontent.com/83489031/126902620-042fc9f2-a1fc-4a39-b07c-4ab4d9d271e0.gif)
 
 
-・投稿画面
-![投稿](https://user-images.githubusercontent.com/83489031/126763674-121acf2f-b140-4381-be88-91f09974d284.gif)
-
-・編集画面
-![編集](https://user-images.githubusercontent.com/83489031/126763484-79677c1c-1ac6-4787-b9d1-8b42cb06acea.gif)
-
-
-・詳細画面
-![詳細](https://user-images.githubusercontent.com/83489031/126763355-88d1d4c9-099f-46a3-940f-84281679762c.gif)
+・編集画面・詳細画面
+![f5545aa842ff710f1ea9bf7fdad8068f](https://user-images.githubusercontent.com/83489031/126902307-8bbdfff4-4f30-4993-a859-df65e39e3af0.gif)
 
 
 ・マイページ
-![マイページ](https://user-images.githubusercontent.com/83489031/126763184-897f42ba-7c69-48f5-b5d8-496a29e6b6a4.gif)
+![525143b0fc88240b60a37f47dcaf995b (1)](https://user-images.githubusercontent.com/83489031/126902173-f16c9532-6934-44a4-93f5-c3c5e608c01a.gif)
 
 ・コメント機能
-![コメント2](https://user-images.githubusercontent.com/83489031/126763026-385cbc38-c4fc-4cc3-b1b8-561db2848e5f.gif)
+![2b8bfcf768be0e35cb5e3f52096d1d6e](https://user-images.githubusercontent.com/83489031/126902579-03c9e5df-1491-4fb3-a784-fe46ed28b83d.gif)
 
 ・検索機能
+![87131330eff92d68e136de55a3f0b6c0](https://user-images.githubusercontent.com/83489031/126902436-fd73bc50-aa7e-438c-ac2e-58be7e7ca30b.gif)
 
-![検索](https://user-images.githubusercontent.com/83489031/126761954-856dae85-206f-4f08-be0d-ffdc74e96caf.gif)
 
 
 # 工夫したポイント
