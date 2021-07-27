@@ -52,7 +52,6 @@ class PetsController < ApplicationController
    def show
       @comment = Comment.new
       @comments = @pet.comments.includes(:user)
-      
    end
 
    def search
