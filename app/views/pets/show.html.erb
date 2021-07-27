@@ -38,6 +38,7 @@
            <p>
               <%=comment.text %>
               by<%= link_to comment.user.nickname,user_path(comment.user.id), class: :comment_user %>さん
+               
              </p>
             </li>
               <% end %>
