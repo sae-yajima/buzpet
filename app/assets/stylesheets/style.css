@@ -206,6 +206,7 @@ background-size: cover;
 background-position: center;
 text-align: center;
 padding-bottom: 50px;
+height: 100vh;
 }
   /* welcome to buzpetと写真の間の距離 */
   /* .greeting{

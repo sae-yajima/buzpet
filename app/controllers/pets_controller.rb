@@ -56,6 +56,8 @@ class PetsController < ApplicationController
 
    def search
     @pets = Pet.search(params[:keyword])
+    if @pets.count == 0
+    end
    end
 
 
