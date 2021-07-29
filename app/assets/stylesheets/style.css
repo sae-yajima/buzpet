@@ -536,3 +536,65 @@ height: 100vh;
       transform:translateX(25%);
     }
   }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  label {
+    position: relative;
+    cursor: pointer;
+  }
+  label svg {
+    width: 130px;
+    margin-left: 100px;
+  }
+  input[type="checkbox"] + label svg {
+    fill: #f0e2e2;
+    transition: all .3s;
+  }
+  input[type="checkbox"]:checked + label svg {
+    fill: #f32828;
+    animation: like .8s ease-out;
+    transition: all .3s;
+  }
+  @keyframes like {
+    0% {
+      transform: scale(1,1);
+    }
+    50% {
+      transform: scale(.5,.5);
+    }
+    100% {
+      transform: scale(1,1);
+    }
+  }
+  input[type="checkbox"]:checked + label::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #f54141;
+    border-radius: 50%;
+    animation: circle .8s ease-out;
+    opacity: 0;
+    top: -10px;
+    left: -4px;
+    z-index: -100;
+    
+  }
+  @keyframes circle {
+    0% {
+      transform: scale(.2,.2);
+    }
+    50% {
+      transform: scale(.5,.5);
+    }
+    80% {
+      transform: scale(1,1);
+      opacity: .8;
+    }
+    100% {
+      transform: scale(1.3,1.3);
+      opacity: 0;
+    }
+  }
