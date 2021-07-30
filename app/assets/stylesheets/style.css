@@ -546,7 +546,7 @@ height: 100vh;
   }
   label svg {
     width: 130px;
-    margin-left: 100px;
+    margin-left: 90px;
   }
   input[type="checkbox"] + label svg {
     fill: #f0e2e2;
