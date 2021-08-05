@@ -67,7 +67,7 @@
    /*詳細ページの タイトルとキャッチコピーの文字いろ */
   a {
     text-decoration: none;
-    color: #424242;
+    color: #442e2e;
   }
   /* ヘッダー */
   .header {
@@ -396,6 +396,7 @@ height: 100vh;
     font-size: 16px;
     color: rgb(34, 32, 32);
     text-decoration: underline;
+    margin-left: 30px;
   }
   /* ユーザーページ */
   .user__wrapper{
