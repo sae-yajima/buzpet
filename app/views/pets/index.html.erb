@@ -2,7 +2,7 @@
 <div id="loader-bg">
   <div id="loader">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVNklv8hfdr_GAgAOOPgt73Zo3OQMZMVThpA&usqp=CAU" width="80" height="80" alt="welcome to buzpet" />
-    <p>〜loading〜</p>
+    <p>〜ローディング〜</p>
   </div>
 </div>
 <div id="wrap">
@@ -32,6 +32,7 @@ function stopload(){
   $('#loader').delay(600).fadeOut(300);
 }
 </script>
+
   <%= form_with(url: search_pets_path, local: true, method: :get, class: "search-form") do |form| %>
    <%= form.text_field :keyword, placeholder: "例)ひなたぼっこ", class: "search-input" %>
     <%= form.submit "検索", class: "search-btn" %>
