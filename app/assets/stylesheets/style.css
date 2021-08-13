@@ -69,7 +69,7 @@
    /*詳細ページの タイトルとキャッチコピーの文字いろ */
   a {
     text-decoration: none;
-    color: #442e2e;
+    color: #7e7d7d;
     font-size: 27px;
   }
   /* ヘッダー */
@@ -330,6 +330,9 @@ height: 100vh;
     align-items: center;
     flex-direction: column;
     margin-bottom: 8px;
+    background-color: rgb(255, 238, 238);
+    border-radius: 10px;
+
   }
   /* キャッチコピーの文字の大きさ */
   .detail__title{
