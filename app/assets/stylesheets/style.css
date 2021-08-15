@@ -238,9 +238,9 @@ height: 100vh;
   /* 写真の大きさ指定 ・キャッチコピー文字色*/
   .card {
     margin-bottom: 40px;
-    color: rgb(241, 241, 241);
     text-align: center;
   }
+ 
   /* 写真と文字の距離・写真の形 */
   .card__img {
     width: 350px;
@@ -261,23 +261,23 @@ height: 100vh;
     font-size: 28px;
     margin: auto;
     font-weight: bold;
-    color: rgb(71, 70, 70);
+    color: rgb(236, 233, 233);
   }
   /* キャッチコピーの文字の大きさ */
   .card__summary {
-    font-size: 20px;
+    font-size: 22px;
     font-style: oblique;
-    color: rgba(252, 182, 78, 0.911);
+    color: rgba(161, 211, 252, 0.815);
     border-radius: 30px;
-    background-color: rgb(255, 255, 255);
     text-align: center; 
+    
   }
   /* 投稿者名の位置 */
   .card__user {
     display: block;
     font-size: 16px;
     color: rgba(99, 52, 4, 0.911);
-    margin-left: 250px;
+    margin-left: 200px;
     margin-top: 10px;
     text-decoration: underline double;
     border-radius: 5px;

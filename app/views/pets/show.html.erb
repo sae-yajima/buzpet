@@ -36,10 +36,9 @@
         <ul class="comments_lists">
             <% @comments.each do |comment| %>
             <li class="comments_list">
-           <p>
+            <p>
               <%=comment.text %>
               <%= link_to "by#{comment.user.nickname}さん",user_path(comment.user.id), class: :comment_user %>
-               
              </p>
             </li>
               <% end %>

@@ -38,15 +38,8 @@ function stopload(){
     <%= form.submit "検索", class: "search-btn" %>
   <% end %>
    <div class="inner">
-    <% if user_signed_in? %>
-    <div class="greeting">
-   </div>
-    <% else %>
-    <% end %> 
     <%# <div class="card__wrapper"> %>
-    
     <%= render partial: 'pet', collection: @pets  %>
-    
     <%# </div>  %>
       </div>
      </div>
