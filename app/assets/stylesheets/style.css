@@ -463,6 +463,16 @@ height: 100vh;
   .search-form {
     text-align: center;
     padding-top: 32px;
+    
+  }
+  .search__inner{
+    width: 100%;
+    height: 100vh;
+    margin: auto; 
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    backdrop-filter:blur(4px);
   }
   .search-form .search-input {
     width: 30%;
