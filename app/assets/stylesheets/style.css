@@ -39,7 +39,9 @@
   }
   h2{
     margin-left: 70px;  
-    color: rgb(107, 103, 103);
+    color: rgb(109, 105, 105);
+    text-shadow:-1px -1px 1px rgb(233, 227, 227), 1px 1px 1px rgb(241, 240, 240);
+    
   }
   /* welcome to BuzPet・編集・マイページの情報の文字色 */
   body {
@@ -148,6 +150,7 @@
     margin: 10px 0;
     margin-left: 40px;
     color: rgb(22, 21, 21);
+  
   }
   /* コメントボックスの縦幅 */
   .actions{
@@ -225,7 +228,10 @@ height: 100vh;
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 28px;
+  
 }
+
+
   /* 写真の並び・配置 */
   /* .card__wrapper {
     display: flex;
@@ -264,6 +270,7 @@ height: 100vh;
     margin: auto;
     font-weight: bold;
     color: rgb(236, 233, 233);
+    text-shadow:-1px -1px 1px rgb(105, 104, 104), 1px 1px 1px rgb(53, 52, 52);
   }
   /* キャッチコピーの文字の大きさ */
   .card__summary {
