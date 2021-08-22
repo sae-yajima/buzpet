@@ -71,8 +71,9 @@
    /*詳細ページの タイトルとキャッチコピーの文字いろ */
   a {
     text-decoration: none;
-    color: #7e7d7d;
+    color: #535353;
     font-size: 27px;
+    text-shadow:-1px -1px 1px rgb(182, 177, 177), 1px 1px 1px rgb(146, 144, 144);
   }
   /* ヘッダー */
   .header {
@@ -341,7 +342,6 @@ height: 100vh;
     align-items: center;
     flex-direction: column;
     margin-bottom: 8px;
-    background-color: rgb(255, 238, 238);
     border-radius: 10px;
 
   }
