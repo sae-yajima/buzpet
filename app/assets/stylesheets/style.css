@@ -281,6 +281,7 @@ height: 100vh;
     color: rgba(161, 211, 252, 0.815);
     border-radius: 10px;
     text-align: center; 
+    display: inline-block;
     
   }
   /* 投稿者名の位置 */
@@ -292,8 +293,9 @@ height: 100vh;
     margin-top: 10px;
     text-decoration: underline double;
     border-radius: 5px;
-
-   
+  }
+  .card__user:hover{
+    color: #a56a11;
   }
   /* 詳細ページ */
   .pet__wrapper{
