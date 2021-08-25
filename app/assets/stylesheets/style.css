@@ -501,6 +501,9 @@ height: 100vh;
     background-color: #925815;
     border-radius: 30px;
   }
+  .search-btn:hover{
+    background-color: #c2984c;
+  }
  #gradient
  {
    width: 100%;
