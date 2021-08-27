@@ -1,7 +1,7 @@
 <div class="main_search">
   <div class="search__inner">
   <%= form_with(url: search_pets_path, local: true, method: :get, class: "search-form") do |form| %>
-   <%= form.text_field :keyword, placeholder: "例)ひなたぼっこ", class: "search-input"    %>
+   <%= form.text_field :keyword, placeholder: "例) ひなたぼっこ", class: "search-input"    %>
    <%= form.submit "検索", class: "search-btn"   %>
   <% end %>   
 
