@@ -141,6 +141,7 @@
     width: 100%;
     min-height: calc(100vh - 161px);
     backdrop-filter:blur(1.5px);
+    backdrop-filter:blur(4px);
   }
   .form__text {
     width: 25%;
