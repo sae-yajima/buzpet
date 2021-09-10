@@ -350,7 +350,7 @@ height: 100vh;
   .stitch {
     color: #fff;
     font-size: 22px;
-    border: 2px dashed #1fa0db;
+    border: 4px dashed #067c6caf;
     border-radius: 10px;
     background-color: rgb(26, 165, 165);
  }
