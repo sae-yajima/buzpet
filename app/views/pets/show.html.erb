@@ -29,7 +29,6 @@
           <%= form_with model: [@pet, @comment],local: true do |f|%>
             <div class="field">
                <%= f.label :text, "コメントする" %><br />
-               
                <%= f.text_field :text, id:"comment_text" %>
             </div>
             <div class="actions">

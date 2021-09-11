@@ -41,8 +41,8 @@
     margin-left: 70px;  
     color: rgb(109, 105, 105);
     text-shadow:-1px -1px 1px rgb(233, 227, 227), 1px 1px 1px rgb(241, 240, 240);
-    
   }
+
   /* welcome to BuzPet・編集・マイページの情報の文字色 */
   body {
     min-width: 1190px;
@@ -78,9 +78,9 @@
    /*詳細ページの タイトルとキャッチコピーの文字いろ */
   a {
     text-decoration: none;
-    color: #535353;
+    color: #1f7ac4;
     font-size: 27px;
-    text-shadow:-1px -1px 1px rgb(182, 177, 177), 1px 1px 1px rgb(146, 144, 144);
+    text-shadow:-1px -1px 1px rgb(243, 245, 245), 1px 1px 1px rgb(150, 146, 146);
   }
   /* ヘッダー */
   .header {
