@@ -4,7 +4,6 @@
    <%= form.text_field :keyword, placeholder: "例) ひなたぼっこ", class: "search-input"    %>
    <%= form.submit "検索", class: "search-btn"   %>
   <% end %>   
- <%= render partial: 'pet', collection: @pets %>  
 
  <% if @pets.count == 1 %> 
  <p>検索結果はこちらです</p>
@@ -12,5 +11,6 @@
  <p>検索結果がありませんでした</p>
  <% end %>
 
+ <%= render partial: 'pet', collection: @pets %>  
   </div>  
  </div>    
