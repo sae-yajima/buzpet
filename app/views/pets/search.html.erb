@@ -7,10 +7,10 @@
 
  <% if @pets.count == 1 %> 
  <p>検索結果はこちらです</p>
- <% else @pets.count == 0 %>
+ <%= render partial: 'pet', collection: @pets %>  
+ <% else  @pets.count == 0 %>
  <p>検索結果がありませんでした</p>
  <% end %>
 
- <%= render partial: 'pet', collection: @pets %>  
   </div>  
  </div>    
